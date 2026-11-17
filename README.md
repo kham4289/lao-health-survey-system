@@ -2,6 +2,44 @@
 
 A small portfolio application inspired by the administrative and digital data-collection needs of public-health surveys. **Independent demonstration only; not affiliated with or endorsed by WHO or Lao MOH.** Not an official WHO STEPS instrument.
 
+## Screenshots
+
+Actual browser screenshots of every page, using 60 fictional surveys and demo accounts in an isolated database schema. No personal accounts or real participant data are shown. Click an image to view it at full size. The sample records shown here are not added to the application's normal database.
+
+### Analytics dashboard · `/analytics`
+
+Collection trends, province totals, participant profiles, data quality and reporting. Click the preview for the complete page.
+
+[![Analytics dashboard with survey totals, collection trends and province charts](docs/screenshots/analytics-overview.png)](docs/screenshots/analytics.png)
+
+### Survey dashboard · `/`
+
+Survey totals, province summaries, search, date filters, CSV export and recent records.
+
+[![Survey dashboard with fictional participant records and filters](docs/screenshots/dashboard.png)](docs/screenshots/dashboard.png)
+
+### Sign-in and first-administrator setup · `/login`
+
+| Sign in | Create the first administrator |
+| --- | --- |
+| [![User sign-in page](docs/screenshots/login.png)](docs/screenshots/login.png) | [![First-administrator setup form](docs/screenshots/administrator-setup.png)](docs/screenshots/administrator-setup.png) |
+
+### Survey entry and editing
+
+| New survey · `/surveys/create` | Edit survey · `/surveys/:id/edit` |
+| --- | --- |
+| [![New survey form with fictional example responses](docs/screenshots/new-survey.png)](docs/screenshots/new-survey.png) | [![Edit an existing fictional survey](docs/screenshots/edit-survey.png)](docs/screenshots/edit-survey.png) |
+
+### User management · `/users`
+
+Administrator-only account creation, role assignment and account activation controls.
+
+[![User management showing the add-user form and administrator, data entry and viewer roles](docs/screenshots/users.png)](docs/screenshots/users.png)
+
+### Mobile view
+
+<a href="docs/screenshots/dashboard-mobile.png"><img src="docs/screenshots/dashboard-mobile.png" alt="Survey dashboard on a mobile screen" width="320"></a>
+
 ## Features
 - User sign-in with server-side sessions and password hashing
 - Administrator, data entry and viewer roles, plus administrator-only user creation and access management
